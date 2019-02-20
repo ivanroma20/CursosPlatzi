@@ -319,9 +319,15 @@ Cada vez que abrimos la terminal se ejecuta un programa llamado `.bash_profile` 
 
 En el `.bash_profile` se guardan los alias.
 
+Si por casualidad dañan alguno de los dos archivos pueden restaurar la copia original con alguno de los siguientes comandos:
+cp /etc/skel/.bashrc ~/
+cp /etc/skel/.profile ~/
+
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
+
+
 
 ### Ver los procesos que están corriendo
 
