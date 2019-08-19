@@ -178,6 +178,19 @@ capitales["Mexico"] = "Ciudad de Mexico"
 * `hash.map { |k,v| "La capital de #{k} es #{v}" }` Ejecuta un comando a todas los registros
 * `[["pepito", 13], ["sutanito", 14]].to_h` Convierte un arreglo a hash
 
+**Rangos**
+
+Rangos, el principal uso y quizás el más apropiado para los rangos, es expresar una secuencia: las secuencias tienen un punto inicial y un punto final, y una forma de producir los sucesivos valores entre ambos. En Ruby, esas secuencias son creadas usando los operandos ‘…’ y ‘…’
+
+‘…’ genera una secuencia donde los puntos límites están incluidos.
+(1..3).to_a
+ 
+#es la secuencia 1, 2, 3
+‘…’ genera una secuencia en la que no está incluida el límite superior.
+(1...5).to_a
+ 
+#equivale a 1, 2, 3, 4
+
 ## Enlaces de Interés
 * [Curso de Ruby](https://platzi.com/clases/ruby/)
 * [Ruby Installer](https://rubyinstaller.org)
